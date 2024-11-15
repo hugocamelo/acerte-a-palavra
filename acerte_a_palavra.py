@@ -1,12 +1,12 @@
 import random
-lista = ["celula", "mitocondria", "lisossomo"]
+lista = ["celula", "mitocondria", "lisossomo"] #Adicione aqui novas palavras que comporão a lista de possibilidades de escolha
 
 palavra_escolhida = random.choice(lista)
 print(palavra_escolhida) #Printa a palavra escolhida da lista. Apague para tornar secreta a palavra
 
 display = ["_"] * len(palavra_escolhida)
 gameover = False
-vidas = 5%
+vidas = 5
 letras_digitadas = []
 
 while not gameover:
